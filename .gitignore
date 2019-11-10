@@ -1,3 +1,5 @@
+# Omitir cualquier entono que comience con env
+env*
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
