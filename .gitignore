@@ -1,5 +1,6 @@
 # Omitir cualquier entono que comience con env
 env*
+.vscode/
 
 ###### --------------------------------------------
 
