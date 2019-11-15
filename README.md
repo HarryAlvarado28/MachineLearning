@@ -13,6 +13,7 @@
 
 - **Módulo Matplotlib** (gráficos, multigráficos, tamaño del gráfico, crear 2 gráficos en la misma figura, color del gráfico, tipo de línea y marcadores)
 
+- **Scikit Learn** es el paquete de machine learning más popular y tiene muchos algoritmos pre-construidos. Incluye varios algoritmos de _clasificación_, _regresión_ y _análisis de grupos_ entre los cuales están _máquinas de vectores de soporte_, _bosques aleatorios_, _Gradient boosting_, _K-means_ y _DBSCAN_. Está diseñada para interoperar con las bibliotecas numéricas y científicas _NumPy_ y _SciPy_. Se install `pip install scikit-learn` y en conda `conda install -c anaconda scikit-learn`.
 
 ## ¿Qué es el Marchine Learning?
 
@@ -33,3 +34,5 @@
 - **Aprendizaje no supervizado**: Este algoritmo necesita indicaciones previas, que le enseñan a comprender y analizar la información, para resolver problemas futuros similares. No necesita datos previamente etiquetados.
 
 - **Aprendizaje de refuerzo**: Este algoritmo aprende por su cuenta, en base de unos conocimientos previamente introducidos y a la práctica que realiza sobre los problemas aprendiendo en función del éxito o fracaso que obtiene al resolver los problemas.
+
+
