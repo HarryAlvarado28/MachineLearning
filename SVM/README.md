@@ -5,4 +5,4 @@
 
 - Dado un conjunto de ejemplos de entrenamiento, podemos etiquetar las clases y entrenar una SVM para contruir un modelo que prediga la clase de una nuevo muestra.
 
-- Representa los puentos de muestra en el espacio, separando las clases en dos espacios lo más amplio posible mediante un hiperplano de separación, denominado vector de soporte.
+- Representa los puntos de muestra en el espacio, separando las clases en dos espacios lo más amplio posible mediante un hiperplano de separación, denominado vector de soporte.
