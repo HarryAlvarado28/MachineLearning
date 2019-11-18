@@ -39,7 +39,7 @@
 
 - [**Regresión Lineal**](./RegresionLineal) es una aproximación para modelar la relación entre una varible escalar dependiente "y" y una o más variables explicativas "x".
 
-- [**Regresión Logística**](./) es un tipo de análisis de regresión, utilizado para predecir el resultado de una variable categórica (una variable que puede adoptar un númerolimitado de categorías) en función de otras variables independientes.
+- [**Regresión Logística**](./RegresionLogistica) es un tipo de análisis de regresión, utilizado para predecir el resultado de una variable categórica (una variable que puede adoptar un númerolimitado de categorías) en función de otras variables independientes.
 
 - [**k vecinos más próximos - KNN**](./KNN) en el reconocimiento de patrones, este algoritmo es usado como método de clasificación de objetos, basado en un entrenamiento mediante ejemplos cercanos en el espacio de los elementos.
 
