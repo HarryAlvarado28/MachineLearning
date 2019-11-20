@@ -50,3 +50,54 @@
 - [**Máquinas de Vectores de Soporte  - Support Vector Machine - SVM**](./SVM) representa los puntos de muestra en el espacio, separando las clases en dos espacios lo más amplio posible mediante un hiperplano de separación, denominado vector de soporte.
 
 - [**Algoritmo de K-Medias**](./K-Medias) tiene como objetivo la partición de un conjunto de 'n' objetivos en 'k' grupos, en el cada observación pertenece al grupo cuyo valor medio es más cercano.
+
+## Deep Learning 🧠🌋
+
+### Redes Neuronales
+
+_Marco teórico, y representación analógica de las redes reuronales._
+
+#### (_Neurona y Perceptrón_)
+
+- Una neurona es una célula y el componente principal del sistema nervioso, cuya función principal es recibir, precesar y transmitir información a través de señales químicas y eléctricas.
+
+- Se dividen en tres partes principales:
+    - **Soma**: cuerpo celular o núcle.
+    - **Dentritas**: Prolongaciones cortas que reciben información y la transmiten al Soma.
+    - **Axón**: Prolongación corta que conduce los impulsos hacia otra neurona.
+
+!["Una Neurona url:.images/una_neurona.gif"](.images/una_neurona.gif)
+<!-- !["Neurona url:.images/una_neurona.gif"](.images/neurona.png) -->
+
+#### Perceptrón
+
+- Un perceptrón es una neurona artificial.
+- Se une con otros perceptrones para crear una red neuranol artifical.
+- Cada perceptrón tiene:
+    - Canales de entrada (x1, x2, .. xn) (Dentritas)
+    - Función de activación (Soma o núcle)
+    - Canal de salida (y) (Axón)
+
+!["Perceptron_5_unidades url:.images/Perceptron_5_unidades.png"](.images/Perceptron_5_unidades.png)
+
+- Su representación matemática es:
+
+!["Representación Matemática url:.images/repre_mat.png"](.images/repre_mat.png)
+
+### Redes Neuronales Artificiales
+
+- Una red reuronal artificial consiste en un conjunto de reuronas artificiales (perceptrones) conectadas entre sí para transmitirse señales.
+- La información de entrada atraviesa la red neuronal (donde se somete a diversas operaciones).
+- Cada neurona aritificial está conectada con otras neuronas a través de unos enlaces. En estos enlaces, el valor de salida de la neurona es multiplicado por un valor (peso de enlace).
+- A la salida de la neurona, está la función de activación que modifica el valor del resultado de esa neurona, que posteriormente debe enviarse a la siguiente neurona.
+
+### Función de Activación
+
+- Funciones de activación de una neurona actificial **sirve para definir el valor de salida en función de los datos de entrada**.
+- La función de activación se encarga de devolver una salida a partir de un valor de entrada, normalmente el conjunto de valores de salida en un rango determinado como (0,1) o (-1,1).
+- Existen diferentes tipos de funciones de activación:
+    - **Sigmoide**: La función sigmoide transforma los valores introducidos a una escala (0,1), donde los valores altos tienen de manera asintótica a 1 y los valores muy bajos tienden de manera asintótica a 0.
+    - **Tanh - Tangente hiperbólica**: La función tangente hiperbólica transforma los valores introducidos a una escala (-1,1), donde los valores altos tienen de manera asintótica a 1 y los valores muy bajos tienden de manera asintótica a -1.
+    - **ReLU - Unidad lineal rectificada**: La función ReLU transforma los valores introducidos anulando los valores negativos y dejando los positivos tal y como entran.
+    - **Leaky ReLU - Unidad lineal rectificada**: La función Leaky ReLU transforma los valores introducidos multiplicando los negativos por un coeficiente rectificativo y dejando los positivos según entran.
+    - **Softmax – Unidad lineal rectificada**: La función Softmax transforma las salidas a una representación en forma de probabilidades, de tal manera que el sumatorio de todas las probabilidades de las salidas de 1.
