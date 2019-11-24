@@ -94,10 +94,38 @@ _Marco teórico, y representación analógica de las redes reuronales._
 ### Función de Activación
 
 - Funciones de activación de una neurona actificial **sirve para definir el valor de salida en función de los datos de entrada**.
-- La función de activación se encarga de devolver una salida a partir de un valor de entrada, normalmente el conjunto de valores de salida en un rango determinado como (0,1) o (-1,1).
+- La función de activación se encarga de devolver una salida a partir de un valor de entrada, normalmente el conjunto de valores de salida en un rango determinado como (0,1) o (-1,1). ["Referencia bibliografica"](http://www.diegocalvo.es/funcion-de-activacion-redes-neuronales/).
 - Existen diferentes tipos de funciones de activación:
     - **Sigmoide**: La función sigmoide transforma los valores introducidos a una escala (0,1), donde los valores altos tienen de manera asintótica a 1 y los valores muy bajos tienden de manera asintótica a 0.
     - **Tanh - Tangente hiperbólica**: La función tangente hiperbólica transforma los valores introducidos a una escala (-1,1), donde los valores altos tienen de manera asintótica a 1 y los valores muy bajos tienden de manera asintótica a -1.
     - **ReLU - Unidad lineal rectificada**: La función ReLU transforma los valores introducidos anulando los valores negativos y dejando los positivos tal y como entran.
     - **Leaky ReLU - Unidad lineal rectificada**: La función Leaky ReLU transforma los valores introducidos multiplicando los negativos por un coeficiente rectificativo y dejando los positivos según entran.
     - **Softmax – Unidad lineal rectificada**: La función Softmax transforma las salidas a una representación en forma de probabilidades, de tal manera que el sumatorio de todas las probabilidades de las salidas de 1.
+
+### Función de Coste
+
+- Para evaluar el rendimiento de una reurona, utilizaremos las funciones de coste.
+- Las funciones de coste sirven para medir qué distancia hay entre el valor estimado por la neurona y el valor real.
+- Significado de las varibles utilizadas en las funciones de coste
+    - y: Representa el valor real
+    - a: Representa el valor estimado por la reunona
+    - w: Peso del enlace de una neurona a otra
+    - x: Valor de la entrada en la neurona
+    - b: Valor residual o bias
+    - z: Valor que pasamos a las función de activación para calcular el valor estimado "a" 
+- Ecuación de la **función de coste**: _z = ( w * x ) + b_
+- Tipos de funciones de coste:
+    - Función de coste cuadrático:
+        - Los errores se hace más grande, debido a que están al cuadrado
+        - Esta función puede ralentizar la velocidad de aprendizaje de nuestra red neuronal artificial
+        - Esta es la ecuación matemática para calcularla: _C = ∑ ( y - a )² ∕ n_
+    - Función de entropía cruzada
+        - Cuánto mayor es la diferencia entre el valor real y la predicción de la neurona, mayor será la rapidez de aprendizaje.
+        - Permite una mayor rapidez en el aprendizaje de nuestra red neuronal artificial
+        - Esta es la fórmula matemática para calcularla: _C = ( -1 / n ) * ∑ ( y * ㏑( a ) + ( 1 - y ) * ㏑( 1 - a ) )_
+
+ ### Algoritmo del gradiente descendiente
+
+ - El algoritmo del gradiente descendiente es un algoritmo de optimización para encontrar el valor mínimo de una función de coste, es decir, encontrar el valor de los pesos exactos "W" en nuestra red neuronal para que el valor de la función de coste "C" sea el valor mínimo posible.
+
+ 
