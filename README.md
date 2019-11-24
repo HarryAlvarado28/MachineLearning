@@ -128,4 +128,6 @@ _Marco teórico, y representación analógica de las redes reuronales._
 
  - El algoritmo del gradiente descendiente es un algoritmo de optimización para encontrar el valor mínimo de una función de coste, es decir, encontrar el valor de los pesos exactos "W" en nuestra red neuronal para que el valor de la función de coste "C" sea el valor mínimo posible.
 
- 
+## TensorFlow 🔥 -> [Ir al READMED.md](./TensorFlow) 🚀
+
+- La Página de [PlayGround de TensorFlow](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.81722&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false), es un ejemplo de como funciona estos algoritmos y las redes neuronales.
