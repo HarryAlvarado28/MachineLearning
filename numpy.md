@@ -1,4 +1,3 @@
-
 # NumPy
 
 ## ¿Qué es NumPy?
@@ -7,8 +6,9 @@ NumPy es una extensión de Python, que le agrega mayor soporte para vectores y m
 
 ## Instalar NumPy en Conda
 
-Ejecuta la siguiente instrucción en *Jupyter*
+Ejecuta la siguiente instrucción en _Jupyter_
 
-```console
+```text
 conda install -c anaconda numpy
 ```
+

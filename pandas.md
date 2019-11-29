@@ -4,25 +4,21 @@
 
 En Computación y Ciencia de datos, pandas es una biblioteca de software escrita como extensión de NumPy para manipulación y análisis de datos para el lenguaje de programación Python. En particular, ofrece estructuras de datos y operaciones para manipular tablas numéricas y series temporales.
 
-- Pandas es una librería de código abierto escrita como extensión de un ampay para la manipulación y análisis de datos en Python
-
-- Permite de forma rápida el análisis la limpieza y la preparación de datos.
-
-- Ofrece un gran rendimiento y una gran productividad.
-
-- Tiene características de visualización preconstruirlas.
-
-- Permite trabajar con una gran variedad de fuentes.
+* Pandas es una librería de código abierto escrita como extensión de un ampay para la manipulación y análisis de datos en Python
+* Permite de forma rápida el análisis la limpieza y la preparación de datos.
+* Ofrece un gran rendimiento y una gran productividad.
+* Tiene características de visualización preconstruirlas.
+* Permite trabajar con una gran variedad de fuentes.
 
 ## Instalar Pandas en Conda
 
-Ejecuta la siguiente instrucción en *Jupyter*
+Ejecuta la siguiente instrucción en _Jupyter_
 
-```console
+```text
 conda install -c anaconda pandas
 ```
 
-### Issues (_Posibles errores_)
+### Issues \(_Posibles errores_\)
 
 Si te presentas con estos posibles errores entonces ejecuta el comando para corregirlo, **se recomuiendo una ves ejecutada alguno de los comandos restablecer el entorno de jupiter con 'restart'**.
 
@@ -40,9 +36,9 @@ ImportError                               Traceback (most recent call last)
 ImportError: Missing optional dependency 'xlrd'. Install xlrd >= 1.0.0 for Excel support Use pip or conda to install xlrd.
 ```
 
-Comando que debes ejecutar en una celda del *Jupyter* para corregir el error
+Comando que debes ejecutar en una celda del _Jupyter_ para corregir el error
 
-```console
+```text
 conda install -c anaconda xlrd
 ```
 
@@ -59,9 +55,9 @@ ModuleNotFoundError                       Traceback (most recent call last)
 ModuleNotFoundError: No module named 'openpyxl'
 ```
 
-Comando que debes ejecutar en una celda del *Jupyter* para corregir el error
+Comando que debes ejecutar en una celda del _Jupyter_ para corregir el error
 
-```console
+```text
 conda install -c anaconda openpyxl
 ```
 
@@ -78,9 +74,9 @@ ImportError                               Traceback (most recent call last)
 ImportError: lxml not found, please install it
 ```
 
-Comando que debes ejecutar en una celda del *Jupyter* para corregir el error
+Comando que debes ejecutar en una celda del _Jupyter_ para corregir el error
 
-```console
+```text
 conda install -c anaconda lxml
 ```
 
@@ -98,9 +94,9 @@ ModuleNotFoundError                       Traceback (most recent call last)
 ModuleNotFoundError: No module named 'sqlalchemy'
 ```
 
-Comando que debes ejecutar en una celda del *Jupyter* para corregir el error
+Comando que debes ejecutar en una celda del _Jupyter_ para corregir el error
 
-```console
+```text
 conda install -c anaconda sqlalchemy
 ```
 
@@ -117,9 +113,9 @@ ModuleNotFoundError                       Traceback (most recent call last)
 ModuleNotFoundError: No module named 'matplotlib'
 ```
 
-Comando que debes ejecutar en una celda del *Jupyter* para corregir el error
+Comando que debes ejecutar en una celda del _Jupyter_ para corregir el error
 
-```console
+```text
 conda install -c anaconda matplotlib
 ```
 
@@ -136,8 +132,9 @@ ModuleNotFoundError                       Traceback (most recent call last)
 ModuleNotFoundError: No module named 'scipy'
 ```
 
-Comando que debes ejecutar en una celda del *Jupyter* para corregir el error
+Comando que debes ejecutar en una celda del _Jupyter_ para corregir el error
 
-```console
+```text
 conda install -c anaconda scipy
 ```
+

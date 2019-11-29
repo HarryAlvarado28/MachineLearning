@@ -1,4 +1,3 @@
-
 # Seaborn
 
 ## ¿Qué es Seaborn?
@@ -7,8 +6,9 @@ Seaborn es una biblioteca de visualización de datos de Python basada en Matplot
 
 ## Instalar Seaborn en Conda
 
-Ejecuta la siguiente instrucción en *Jupyter*
+Ejecuta la siguiente instrucción en _Jupyter_
 
-```console
+```text
 conda install -c anaconda seaborn
 ```
+
